@@ -1,0 +1,71 @@
+@import url('banner.css');
+@import url('buttons.css');
+@import url('cards.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import	url('footer.css');
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.icons {
+	font-size: 64px;
+	color: darkgray;
+	justify-self: center;
+}
+
+.icons {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 16px;
+}
+
+.bloque {
+	background-image: url("../images/bloque.jpeg");
+	background-size: cover;
+	background-position: center;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.bloque p {
+	padding: 10px;
+}
+
+.bloque p,a {
+	background-color: rgba(0, 0, 0, .5);
+	width: 80%;
+}
+
+.list-inline li {
+	display: inline;
+}
+
+.list-inline a {
+	font-size: 48px;
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.list-inline a:hover {
+	color: black;
+}
+
+
+
+

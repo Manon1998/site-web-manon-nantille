@@ -1,0 +1,28 @@
+.banner {
+	height: 75vh;
+	background-image: url("../images/4cakecouv.jpg");
+	background-size: cover;
+	background-position: right;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner h1, .banner h2 {
+	text-shadow: 1px 1px 1px black;
+}
+
+.banner-fixed {
+	height: 20vh;
+	background-image: url("../images/carrousel-3.jpg");
+	margin: 48px 0;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+@media (min-width: 576px) {
+	.banner {
+	background-position: center;
+	}
